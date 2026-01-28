@@ -1,0 +1,16 @@
+{
+  "name": "md-word-count",
+  "version": "1.0.0",
+  "description": "Markdown 字数统计命令行工具 - 统计中文字数和英文单词数",
+  "main": "index.js",
+  "bin": {
+    "md-word-count": "./index.js"
+  },
+  "scripts": {
+    "test": "node index.js ./test.md"
+  },
+  "keywords": ["markdown", "word-count", "chinese", "cli"],
+  "author": "如意",
+  "license": "MIT",
+  "type": "commonjs"
+}
